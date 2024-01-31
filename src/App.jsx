@@ -1,10 +1,10 @@
-import Ref from "./Components/Ref"
+import Stopwatch from "./Components/StopWatch"
 function App() {
   
 
   return (
     <>
-      <Ref />
+      <Stopwatch />
      </>
   )
 }

@@ -9,7 +9,7 @@ export default function Ref() {
 
   return (
     <>
-      
+
       <button onClick={handleCountClick}>Click me !</button>
     </>
   )
