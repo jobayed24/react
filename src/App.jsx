@@ -1,10 +1,10 @@
-import Toggle from "./Components/Toogle"
+import ManipulatingDom from "./Components/ManipulatingDom/ManipulatingDom"
 function App() {
   
 
   return (
     <>
-      <Toggle />
+      <ManipulatingDom />
      </>
   )
 }
