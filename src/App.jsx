@@ -1,10 +1,10 @@
-import Stopwatch from "./Components/StopWatch"
+import Toggle from "./Components/Toogle"
 function App() {
   
 
   return (
     <>
-      <Stopwatch />
+      <Toggle />
      </>
   )
 }
