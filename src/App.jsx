@@ -1,10 +1,11 @@
-import ManipulatingDom from "./Components/ManipulatingDom/ManipulatingDom"
+import "./App.css"
+import CatFriends from "./Components/ScrollIntoElement"
 function App() {
   
 
   return (
     <>
-      <ManipulatingDom />
+      <CatFriends />
      </>
   )
 }
