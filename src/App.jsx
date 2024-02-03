@@ -1,12 +1,12 @@
 import "./App.css"
-import CatFriends from "./Components/ManipulatingDom/CatFriends"
+import AccessAnotherDomNode from "./Components/ManipulatingDom/AccessAnotherDomNode"
 
 function App() {
   
 
   return (
     <>
-      <CatFriends />
+      <AccessAnotherDomNode />
      </>
   )
 }
