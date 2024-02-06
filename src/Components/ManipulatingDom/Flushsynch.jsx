@@ -1,12 +1,13 @@
 import React, { useRef, useState } from 'react';
-
+import { flushSync } from 'react-dom';
 export default function Flushsynch() {
     const [inputValue,setInputValue]=useState("");
     const [itemList,setItemList]=useState(arrayList)
     const getLastElement=useRef(null)
     
    function handleAddItem(){
-    setInputValue("")
+    flushSync(()=>{
+      setInputValue("")
     setItemList([
       ...itemList,
       {
@@ -14,6 +15,8 @@ export default function Flushsynch() {
         text: inputValue
       }
     ])
+    })
+    console.log(getLastElement.current.lastChild)
     getLastElement.current.lastChild.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
