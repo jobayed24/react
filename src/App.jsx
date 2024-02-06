@@ -1,12 +1,12 @@
 import "./App.css"
-import ToggleWithSetState from "./Components/ManipulatingDom/ToggleWithSetState"
+import PlayPauseVideoChallange from "./Components/ManipulatingDom/PlayPauseVideoChallange"
 
 function App() {
   
 
   return (
     <>
-      <ToggleWithSetState />
+      <PlayPauseVideoChallange />
      </>
   )
 }
