@@ -1,12 +1,12 @@
 import "./App.css"
-import AccessAnotherDomNode from "./Components/ManipulatingDom/AccessAnotherDomNode"
+import Flushsynch from "./Components/ManipulatingDom/flushsynch"
 
 function App() {
   
 
   return (
     <>
-      <AccessAnotherDomNode />
+      <Flushsynch />
      </>
   )
 }
