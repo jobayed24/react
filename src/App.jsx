@@ -1,12 +1,12 @@
 import "./App.css"
-import Flushsynch from "./Components/ManipulatingDom/flushsynch"
+import ToggleWithSetState from "./Components/ManipulatingDom/ToggleWithSetState"
 
 function App() {
   
 
   return (
     <>
-      <Flushsynch />
+      <ToggleWithSetState />
      </>
   )
 }
