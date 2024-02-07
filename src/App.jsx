@@ -1,12 +1,12 @@
 import "./App.css"
-import PlayPauseVideoChallange from "./Components/ManipulatingDom/PlayPauseVideoChallange"
+import UpdateStateBasedOnState from "./Components/ManipulatingDom/UpdateStateBasedOnState"
 
 function App() {
   
 
   return (
     <>
-      <PlayPauseVideoChallange />
+      <UpdateStateBasedOnState />
      </>
   )
 }
